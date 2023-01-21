@@ -1,0 +1,78 @@
+*{
+  text-align: center;
+  background-color: grey ;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  background-color: #20222b ;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  padding: 2px;
+  color: white;
+}
+h1{
+  color: blue;
+}
+.container{
+  max-width: 100%;
+  margin: auto;
+}
+.bigButton{
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+.addOption{
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: orange;
+  padding: 5px;
+}
+.addText{
+  background-color:white;
+  color: blue;
+  font-size: 15px;
+  padding: 4px;
+  font-weight: bold;
+}
+.container{
+  background-color: orange;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 20px;
+  font-style: italic;
+  border: 2px solid green;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.optionBtn{
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+.removeBtn{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.error{
+  color: red;
+  font-family: bold;
+  font-size: 20px;
+}
+.completeTodo {
+  text-decoration: line-through;
+  background-color: orange;
+}
+
